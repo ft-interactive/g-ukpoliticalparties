@@ -1,8 +1,12 @@
 {
   "name": "g-ukpoliticalparties",
   "version": "0.0.1",
-  "description": "from a string try to return a set of FT style names for political parties",
+  "description": "given a string try to return a set of FT style names for political parties",
   "main": "index.js",
+  "repository" :{
+    "type" : "git",
+    "url" : "https://github.com/ft-interactive/g-ukpoliticalparties.git"
+  }
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
