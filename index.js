@@ -1,10 +1,10 @@
 var data = [
-	{name:'Conservatives', shortname:'Con', id:'c', pa_id:''},
-	{name:'Labour', shortname:'Lab', id:'l', pa_id:''},
-	{name:'Liberal Democrats', shortname:'LD', id:'ld', pa_id:''},
-	{name:'UKIP', shortname:'UKIP', id:'ukip', pa_id:''},
-	{name:'Greens', shortname:'Green', id:'g', pa_id:''},
-	{name:'SNP', shortname:'SNP', id:'snp', pa_id:''},
+	{name:'Conservatives', shortname:'Con', ft_id:'c', pa_id:''},
+	{name:'Labour', shortname:'Lab', ft_id:'l', pa_id:''},
+	{name:'Liberal Democrats', shortname:'LD', ft_id:'ld', pa_id:''},
+	{name:'UKIP', shortname:'UKIP', ft_id:'ukip', pa_id:''},
+	{name:'Greens', shortname:'Green', ft_id:'g', pa_id:''},
+	{name:'SNP', shortname:'SNP', ft_id:'snp', pa_id:''},
 ];
 
 module.exports = function (str){

@@ -10,5 +10,5 @@ console.log(parties('l'));
 ```
 will, at the moment, log out...
 ```
-{ name: 'Labour', shortname: 'Lab', id: 'l', pa_id: '' }
+{ name: 'Labour', shortname: 'Lab', ft_id: 'l', pa_id: '' }
 ```
