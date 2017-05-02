@@ -3,6 +3,7 @@ var lines = require('g-chartcolour').ukPoliticalPartiesText;
 
 var data = [{
   name:'Conservatives',
+  alias:'conservative,tory,tory party,tories,conservative party', //aliases should be listed in lower case
   shortname:'Con',
   ft_id:'c',
   pa_id:'',
@@ -10,6 +11,7 @@ var data = [{
   lineColour:lines.conservative
 },{
   name:'Labour',
+  alias:'labour party',
   shortname:'Lab',
   ft_id:'l',
   pa_id:'',
@@ -105,7 +107,10 @@ module.exports = function (str){
   return data.find(function(party){
     var found = false;
     Object.keys(party).forEach(function(key){
-      if(str === party[key]) found = true;
+      if( str.toLowerCase() === party[key].toLowerCase() ) found = true;
+      if(key === 'alias'){ //special case
+        if( party[key].split(',').indexOf(str.toLowerCase()) > -1 ) found = true;
+      }
     });
     return found;
   })
