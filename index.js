@@ -39,7 +39,7 @@ var data = [{
   fillColour:fills.green,
   lineColour:lines.green
 },{
-  name:'SNP',
+  name:'Scottish National Party',
   shortname:'SNP',
   ft_id:'snp',
   pa_id:'',
