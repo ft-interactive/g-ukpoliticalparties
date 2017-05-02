@@ -19,6 +19,7 @@ var data = [{
   lineColour:lines.labour
 },{
   name:'Liberal Democrats',
+  alias:'liberal democrat,lib dems,lib dem',
   shortname:'LD',
   ft_id:'ld',
   pa_id:'',
