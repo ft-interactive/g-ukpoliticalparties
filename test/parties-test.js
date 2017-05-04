@@ -10,3 +10,9 @@ tape('alias test', function(test){
   test.equal(parties('tory').name, 'Conservatives');
   test.end();
 });
+
+tape('alias test', function(test){
+  test.equal(parties('con').name, 'Conservatives');
+  test.end();
+});
+

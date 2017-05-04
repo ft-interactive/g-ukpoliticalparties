@@ -35,6 +35,7 @@ var data = [{
 },{
   name:'Greens',
   shortname:'Green',
+  alias:'grn',
   ft_id:'g',
   pa_id:'',
   fillColour:fills.green,
