@@ -12,7 +12,7 @@ var data = [{
   lineColour:lines.conservative
 },{
   name:'Labour Party',
-  label:'Labour'
+  label:'Labour',
   alias:'labour party,labour,labour/co-op,labour and co-operative party',
   shortname:'Lab',
   ft_id:'l',
@@ -31,7 +31,7 @@ var data = [{
 },{
   name:'United Kingdom Independence Party',
   label:'Ukip',
-  alias:'uk independence party,ukip'
+  alias:'uk independence party,ukip',
   shortname:'Ukip',
   ft_id:'ukip',
   pa_id:'UKIP',
