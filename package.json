@@ -8,6 +8,7 @@
     "url": "https://github.com/ft-interactive/g-ukpoliticalparties.git"
   },
   "scripts": {
+    "prepublish": "npm run test",
     "test": "tape 'test/**/*-test.js'"
   },
   "author": "tom.pearson@ft.com",
