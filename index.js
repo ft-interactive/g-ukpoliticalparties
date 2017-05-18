@@ -51,7 +51,7 @@ var data = [{
   label:'SNP',
   shortname:'SNP',
   ft_id:'snp',
-  pa_id:'',
+  pa_id:'SNP',
   fillColour:fills.snp,
   lineColour:lines.snp
 },{
@@ -59,7 +59,7 @@ var data = [{
   label:'Democratic Unionist',
   shortname:'DUP',
   ft_id:'dup',
-  pa_id:'',
+  pa_id:'DUP',
   fillColour:fills.dup,
   lineColour:lines.dup
 },{
@@ -68,7 +68,7 @@ var data = [{
   alias:'sinn fein',
   shortname:'SF',
   ft_id:'sf',
-  pa_id:'',
+  pa_id:'SF',
   fillColour:fills.sf,
   lineColour:lines.sf
 },{
@@ -77,7 +77,7 @@ var data = [{
   alias:'party of wales',
   shortname:'PC',
   ft_id:'pc',
-  pa_id:'',
+  pa_id:'PC',
   fillColour:fills.pc,
   lineColour:lines.pc
 },{
@@ -85,7 +85,7 @@ var data = [{
   label:'Alliance',
   shortname:'alliance',
   ft_id:'a',
-  pa_id:'',
+  pa_id:'Alliance',
   fillColour:fills.alliance,
   lineColour:lines.alliance
 },{
@@ -111,7 +111,7 @@ var data = [{
   label:'SDLP',
   shortname:'SDLP',
   ft_id:'sdlp',
-  pa_id:'',
+  pa_id:'SDLP',
   fillColour:fills.sdlp,
   lineColour:lines.sdlp
 },{
@@ -119,7 +119,7 @@ var data = [{
   label:'Ulster Unionist',
   shortname:'UUP',
   ft_id:'uup',
-  pa_id:'',
+  pa_id:'UUP',
   fillColour:fills.uup,
   lineColour:lines.uup
 },{
