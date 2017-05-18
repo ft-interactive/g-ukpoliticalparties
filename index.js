@@ -142,15 +142,23 @@ var data = [{
   lineColour:lines.independent
 }];
 
+const defaultObject = {
+  fillColour:'none',
+  lineColour:'none'
+};
+
 module.exports = function (str){
-  return data.find(function(party){
+  if(str === '' || str === undefined || str === null || str === false) return defaultObject;
+  const target = data.find(function(party){
     var found = false;
     Object.keys(party).forEach(function(key){
-      if( str.toLowerCase() === party[key].toLowerCase() ) found = true;
       if(key === 'alias'){ //special case
         if( party[key].split(',').indexOf(str.toLowerCase()) > -1 ) found = true;
+      }else if( str.toLowerCase() === party[key].toLowerCase() ){
+        found = true;
       }
     });
     return found;
-  })
+  });
+  return target;
 }

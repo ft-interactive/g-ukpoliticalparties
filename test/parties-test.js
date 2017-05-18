@@ -16,3 +16,10 @@ tape('alias test', function(test){
   test.end();
 });
 
+tape('blank string test', function(test){
+  console.log(parties('').fill);
+  test.equal(parties('').name, undefined);
+  test.equal(parties('').fillColour, 'none');
+  test.end();
+});
+
