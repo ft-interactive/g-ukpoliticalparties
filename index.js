@@ -140,6 +140,15 @@ var data = [{
   pa_id:'R',
   fillColour:fills.independent,
   lineColour:lines.independent
+},{
+  name:'British National Party',
+  label:'BNP',
+  alias:'', //aliases should be listed in lower case
+  shortname:'BNP',
+  ft_id:'bnp',
+  pa_id:'',
+  fillColour:fills.other,
+  lineColour:lines.other
 }];
 
 const defaultObject = {
