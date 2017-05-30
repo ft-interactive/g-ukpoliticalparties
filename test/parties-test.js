@@ -23,5 +23,7 @@ tape('blank string test', function(test){
   test.end();
 });
 
-
-
+tape('DUP test', function(test){
+  test.equal(parties('Democratic Unionist Party').shortname, 'DUP');
+  test.end();
+});

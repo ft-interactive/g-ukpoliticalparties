@@ -55,7 +55,7 @@ var data = [{
   fillColour:fills.snp,
   lineColour:lines.snp
 },{
-  name:'Demoratic Unionist Party',
+  name:'Democratic Unionist Party',
   label:'Democratic Unionist',
   shortname:'DUP',
   ft_id:'dup',
@@ -143,7 +143,7 @@ var data = [{
 },{
   name:'British National Party',
   label:'BNP',
-  alias:'', //aliases should be listed in lower case
+  alias:'',
   shortname:'BNP',
   ft_id:'bnp',
   pa_id:'',
