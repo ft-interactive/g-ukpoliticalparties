@@ -149,6 +149,15 @@ var data = [{
   pa_id:'',
   fillColour:fills.other,
   lineColour:lines.other
+},{
+  name:'The Speaker',
+  label:'Speaker',
+  alias:'',
+  shortname:'Speaker',
+  ft_id:'spk',
+  pa_id:'',
+  fillColour:fills.other,
+  lineColour:lines.other
 }];
 
 const defaultObject = {
