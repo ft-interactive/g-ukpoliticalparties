@@ -13,7 +13,7 @@ var data = [{
 },{
   name:'Labour Party',
   label:'Labour',
-  alias:'labour party,labour,labour/co-op,labour and co-operative party,labour and co-operative',
+  alias:'labour party,labour,labour/co-op,labour and co-operative party,lab co-op,labour and co-operative',
   shortname:'Lab',
   ft_id:'l',
   pa_id:'Lab',
